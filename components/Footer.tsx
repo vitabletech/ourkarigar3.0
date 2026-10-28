@@ -1,0 +1,8 @@
+import Link from "next/link";
+import Image from "next/image";
+
+export default function Footer(){return <footer className="footer"><div className="wrap"><div className="footer-grid">
+  <div><Link href="/" className="footer-logo" aria-label="OurKarigar home"><Image src="/images/ourkarigar-logo.png" alt="OurKarigar" width={300} height={100}/></Link><p>Reliable electronics repair and home service in Gwalior, Madhya Pradesh. Owned by Umesh Jadon.</p><p><a href="mailto:info@vitabletech.in">info@vitabletech.in</a><br/><a href="tel:+917723062912">+91 77230 62912</a></p></div>
+  <div><h3>Quick links</h3><p><Link href="/services/">All repair services</Link><br/><Link href="/blog/">Blog & repair guides</Link><br/><Link href="/sitemap.xml">XML sitemap</Link><br/><Link href="/privacy-policy/">Privacy policy</Link><br/><Link href="/terms-and-conditions/">Terms & conditions</Link><br/><Link href="/return-refund-policy/">Return & refund policy</Link></p></div>
+  <div><h3>Follow</h3><p><a href="https://www.facebook.com/ourkarigar" target="_blank" rel="noopener noreferrer">Facebook</a><br/><a href="https://www.instagram.com/ourkarigar31/" target="_blank" rel="noopener noreferrer">Instagram</a></p><a className="footer-vitable" href="https://vitabletech.in/" target="_blank" rel="noopener noreferrer"><Image src="/images/vitabletech-official-logo.png" alt="VitableTech Global Enterprise SaaS" width={616} height={134}/><span><small>Designed & developed by</small><strong>VitableTech</strong></span></a></div>
+  </div><div className="legal"><span>© {new Date().getFullYear()} OurKarigar. All rights reserved.</span><span>Gwalior, Madhya Pradesh 474001</span></div></div></footer>}
