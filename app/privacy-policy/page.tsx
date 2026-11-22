@@ -8,4 +8,4 @@ const sections=[
   {id:"choices",title:"Your choices",icon:"fa-user-check",body:<p>You may ask us to correct or delete information we control, subject to legal and accounting requirements. Contact <a href="mailto:info@vitabletech.in">info@vitabletech.in</a>.</p>},
   {id:"links",title:"External links",icon:"fa-arrow-up-right-from-square",body:<p>This site links to Facebook, Instagram, WhatsApp and VitableTech. Their privacy practices are governed by their own policies.</p>},
 ];
-export default function Privacy(){return <LegalPage title="Privacy Policy" description="OurKarigar, owned by Umesh Jadon, respects your privacy when you contact us for electronics repair services." effective="28 October 2026" sections={sections}/>}
+export default function Privacy(){return <LegalPage title="Privacy Policy" description="OurKarigar, owned by Umesh Chandel, respects your privacy when you contact us for electronics repair services." effective="28 October 2026" sections={sections}/>}
